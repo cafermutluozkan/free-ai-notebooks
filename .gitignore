@@ -1,0 +1,13 @@
+# Original/reference notebooks (not ours)
+ltx-2-3-22b-distilled-1-1-q4-t2v-kaggle.ipynb
+
+# Temp files
+_extract_cells.py
+run_ltx_video.py
+
+# Python
+__pycache__/
+*.pyc
+
+# Kaggle temp
+/kaggle/
