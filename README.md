@@ -2,9 +2,11 @@
 
 > **The largest collection of free, ready-to-run AI notebooks.** Run state-of-the-art models — Text-to-Video, Image-to-Video, Voice Cloning, Text-to-Speech, AI Music Generation — on **Kaggle**, **Google Colab**, **HuggingFace Spaces**, **Paperspace** & **Vast.ai**. Zero setup. One-click launch.
 
-[![YouTube](https://img.shields.io/badge/YouTube-SUBSCRIBE-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/)
-[![X](https://img.shields.io/badge/X-FOLLOW-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/)
-[![Discord](https://img.shields.io/badge/Discord-JOIN-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/)
+[![YouTube](https://img.shields.io/badge/YouTube-SUBSCRIBE-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@thebuildai)
+[![Instagram](https://img.shields.io/badge/Instagram-FOLLOW-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/thebuildai/)
+[![TikTok](https://img.shields.io/badge/TikTok-FOLLOW-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@the.build.ai)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cafermutluozkan/)
+[![Web](https://img.shields.io/badge/Web-VISIT-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.thebuildai.tech/)
 
 ---
 
@@ -24,9 +26,10 @@ All notebooks include **Gradio web UI**, **progress bars**, **error handling** a
 
 ## 📓 Notebooks
 
-| Notebook | Description | Kaggle | Colab | HuggingFace | Video |
+| Notebook | Description | Kaggle | Colab | Lightning AI | HuggingFace |
 |:---|:---|:---:|:---:|:---:|:---:|
-| **LTX-Video Generator (T2V + I2V)** | Lightricks LTX-Video (9B) via Diffusers. Text/Image-to-Video with audio mixing, gallery & OOM protection. | [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/) | [![Colab](https://img.shields.io/badge/Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/) | [![HF](https://img.shields.io/badge/Spaces-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/) | [![YouTube](https://img.shields.io/badge/Watch-FF0000?logo=youtube&logoColor=white)](https://youtu.be/) |
+| **LTX-Video Generator (T2V + I2V)** | LTX-2.3 22B Distilled via Wan2GP + mmgp. Text/Image-to-Video with progress bar, gallery & OOM protection. | [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/cafermutluzkan/ltx-video-generator) | [![Colab](https://img.shields.io/badge/Colab-F9AB00?logo=googlecolab&logoColor=white)](https://drive.google.com/file/d/1H3yZrwQt6KZs8Bbyetjo8WCR8MsEeaUO/view?usp=sharing) | [![Lightning](https://img.shields.io/badge/Lightning-792EE5?logo=lightning&logoColor=white)](https://lightning.ai/thebuildai/templates/cheap-lavender-c47q) | [![HF](https://img.shields.io/badge/Model-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/Lightricks/LTX-2.3) |
+| **TripoSplat** | VAST-AI TripoSplat — single image to 3D Gaussian Splat. Interactive 3D viewer in Gradio. | [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/cafermutluzkan/triposplat) | [![Colab](https://img.shields.io/badge/Colab-F9AB00?logo=googlecolab&logoColor=white)](https://drive.google.com/file/d/1D4tGY13NedBrx-rMrI2Mc3rOb-zuKvNH/view?usp=sharing) | [![Lightning](https://img.shields.io/badge/Lightning-792EE5?logo=lightning&logoColor=white)](https://lightning.ai/thebuildai/templates/present-coral-xy86) | [![HF](https://img.shields.io/badge/Demo-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/VAST-AI/TripoSplat) |
 
 ---
 
@@ -45,13 +48,16 @@ All notebooks include **Gradio web UI**, **progress bars**, **error handling** a
 3. **Runtime → Run All**
 4. Wait for the **Gradio public URL**
 
+### Lightning AI
+1. Click the **Lightning** badge
+2. Open in GPU Studio (T4 or L4)
+3. Run cells in order
+4. Wait for the **Gradio public URL**
+
 ### HuggingFace Spaces
 1. Click the **Spaces** badge
 2. No GPU setup needed — runs on HF infrastructure
 3. Use the web UI directly
-
-### Paperspace / Vast.ai
-- Free tier GPUs available. Upload the `.ipynb` file and run.
 
 ---
 
@@ -70,15 +76,14 @@ All notebooks include **Gradio web UI**, **progress bars**, **error handling** a
 |---|---|---|---|
 | Kaggle | T4 / P100 | 30 GB | Best for video models |
 | Google Colab | T4 | 12 GB | Good for TTS & music |
+| Lightning AI | T4 / L4 | 15-30 GB | GPU Studio, free tier |
 | HF Spaces | Free tier | — | Instant, no setup |
-| Paperspace | Free RTX 4000 | — | Weekly free hours |
-| Vast.ai | RTX 3090/4090 | — | Pay-per-hour, cheap |
 
 ---
 
 ## 📺 Video Tutorials
 
-Each notebook has a dedicated YouTube tutorial. Click the **Watch** badge in the table above.
+Each notebook has a dedicated YouTube tutorial on [@thebuildai](https://www.youtube.com/@thebuildai). Subscribe for step-by-step walkthroughs.
 
 ---
 
@@ -106,6 +111,11 @@ All notebooks are open-source under [MIT License](LICENSE).
 ---
 
 <p align='center'>
-  <b>Free AI Notebooks — Built for the community 🌍</b><br>
-  <!-- TODO: Add your own logo here -->
+  <a href='https://www.youtube.com/@thebuildai'><img src='https://img.shields.io/badge/YouTube-SUBSCRIBE-red?logo=youtube&logoColor=white' height='24'></a>
+  <a href='https://www.instagram.com/thebuildai/'><img src='https://img.shields.io/badge/Instagram-FOLLOW-E4405F?logo=instagram&logoColor=white' height='24'></a>
+  <a href='https://www.tiktok.com/@the.build.ai'><img src='https://img.shields.io/badge/TikTok-FOLLOW-000000?logo=tiktok&logoColor=white' height='24'></a>
+  <a href='https://github.com/cafermutluozkan'><img src='https://img.shields.io/badge/GitHub-FOLLOW-181717?logo=github&logoColor=white' height='24'></a>
+  <a href='https://www.linkedin.com/in/cafermutluozkan/'><img src='https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?logo=linkedin&logoColor=white' height='24'></a>
+  <br><br>
+  <b>Free AI Notebooks — Built by <a href='https://www.thebuildai.tech/'>TheBuildAI</a> 🌍</b>
 </p>
