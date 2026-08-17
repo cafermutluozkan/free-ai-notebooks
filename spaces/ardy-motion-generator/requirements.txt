@@ -1,0 +1,9 @@
+# Core Space runtime. ARDY itself is cloned and installed at app startup
+# (see app.py: ensure_ardy_installed) so its C++ extension builds against
+# the exact PyTorch/CUDA wheel already provided by the Space's hardware tier.
+spaces
+gradio>=4.44
+huggingface_hub>=0.24
+numpy
+matplotlib
+imageio[ffmpeg]
