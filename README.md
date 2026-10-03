@@ -2,7 +2,7 @@
 
 > **The largest collection of free, ready-to-run AI notebooks.** Run state-of-the-art models — **AI Image Upscaling & Restoration (4K)**, Text-to-Image, Text-to-Video, Image-to-Video, 3D Gaussian Splat, Text-to-Motion, Voice Cloning, Text-to-Speech, AI Music Generation — on **Kaggle**, **Google Colab**, **Lightning AI**, **HuggingFace Spaces**, **Paperspace** & **Vast.ai**. Zero setup. One-click launch. Free T4 GPU.
 
-**Quick links:** [HYPIR Image Upscaler](#-hypir-ai-image-upscaler-4k--featured) · [All notebooks](#-notebooks) · [Quick start](#-quick-start) · [FAQ](#-faq)
+**Quick links:** [All notebooks](#-notebooks) · [Quick start](#-quick-start) · [FAQ](#-faq)
 
 [![YouTube](https://img.shields.io/badge/YouTube-SUBSCRIBE-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@thebuildai)
 [![Instagram](https://img.shields.io/badge/Instagram-FOLLOW-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/thebuildai/)
@@ -27,28 +27,6 @@
 | **🎭 Talking Head** | SoulX FlashHead | Audio-Driven Avatar |
 
 All notebooks include **Gradio web UI**, **progress bars**, **error handling** and **smart GPU memory management**.
-
----
-
-## 🖼️ HYPIR AI Image Upscaler (4K) — Featured
-
-**Free AI image upscaler & photo restoration** powered by [HYPIR](https://github.com/XPixelGroup/HYPIR) (SIGGRAPH Asia 2025). It restores and upscales low-quality images to **4K in a single forward pass** — no slow iterative diffusion sampling — by fine-tuning a Stable Diffusion 2.1 prior with adversarial training.
-
-- ⚡ **Single-pass** restoration & upscaling (1×–8× factor, output capped at 4096×4096)
-- 📐 **Auto-resize:** oversized inputs (e.g. 8000×6000) are automatically downscaled so the result fits the 4K cap — no more "exceeds the 4K safety limit" errors
-- ✍️ **Optional text prompt** to guide fine detail (e.g. *sharp facial features, fine skin texture*)
-- 🔍 **Before / After comparison slider** in the Gradio UI
-- 🖥️ Runs on a **free T4 GPU** — Kaggle, Google Colab and Lightning AI versions
-
-| Platform | Notebook | Launch |
-|:---|:---|:---:|
-| Kaggle (T4 x1) | [`hypir-image-upscaler-kaggle-t4.ipynb`](notebooks/hypir-image-upscaler-kaggle-t4.ipynb) | [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/cafermutluzkan/hypir-ai-image-upscaler-4k-t4-gpu) |
-| Google Colab (T4) | [`hypir-image-upscaler-colab.ipynb`](notebooks/hypir-image-upscaler-colab.ipynb) | [![Colab](https://img.shields.io/badge/Colab-F9AB00?logo=googlecolab&logoColor=white)](https://drive.google.com/file/d/1GGSiW4d63TraTpC9omZj7Up9nVr7iCM4/view?usp=sharing) |
-| Lightning AI | [`hypir-image-upscaler-lightning.ipynb`](notebooks/hypir-image-upscaler-lightning.ipynb) | _link coming soon_ |
-
-> ⚠️ **License:** HYPIR code and weights are **non-commercial only** ([details](https://github.com/XPixelGroup/HYPIR/blob/main/LICENSE)). The notebook code in this repo is MIT, but the model it downloads is not.
-
-📄 Paper: [arXiv:2507.20590](https://arxiv.org/abs/2507.20590) · 🤗 Weights: [lxq007/HYPIR](https://huggingface.co/lxq007/HYPIR)
 
 ---
 
